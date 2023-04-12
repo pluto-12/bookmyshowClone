@@ -1,0 +1,178 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Inter", sans-serif;
+}
+
+/* .container {
+  display: ;
+} */
+
+.header {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  /* padding: 6px; */
+  color: white;
+  background-color: #333545;
+}
+
+.header .header-left {
+  display: flex;
+  /* margin-top: 10px; */
+  margin-left: 170px;
+}
+
+.header .header-left img {
+  width: 13%;
+  height: 68%;
+  margin: 10px;
+}
+
+.header .header-left input {
+  margin-inline: 11px;
+  width: 420px;
+  height: 33px;
+  border: none;
+  outline: none;
+  text-align: left;
+  margin: 14px;
+  border-radius: 4px;
+}
+
+input::placeholder {
+  text-align: left;
+}
+
+.header .header-right {
+  display: flex;
+  margin-top: 20px;
+  margin-right: 142px;
+}
+
+.header .header-right .location {
+  margin-inline: 22px;
+  font-size: 15px;
+  font-weight: 200;
+  margin-bottom: 3px;
+  background-color: #333545;
+  cursor: pointer;
+}
+
+.header .header-right button {
+  margin-inline: 22px;
+  width: 80px;
+  height: 27px;
+  border: none;
+  border-radius: 2px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.header .header-right i {
+  margin-inline: 22px;
+  font-size: 22px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  background-color: #222539;
+  padding: 9px;
+  color: white;
+}
+
+.nav-menu .nav-left {
+  display: flex;
+}
+
+.nav-menu .nav-right {
+  display: flex;
+}
+
+.nav-menu p:hover {
+  color: rgb(245, 70, 99);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.nav-menu .nav-left p {
+  margin-inline-start: 18px;
+}
+
+.nav-menu .nav-right p {
+  margin-inline-start: 22px;
+}
+
+.main-banner img {
+  width: 100%;
+}
+
+.recomendation h2 {
+  text-align: center;
+  padding: 22px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.card img {
+  width: 16%;
+  margin-block: 15px;
+  border-radius: 10px;
+}
+
+.banner img {
+  width: 100%;
+  margin-top: 44px;
+}
+
+.premiere-recomendation {
+  background-color: #2b3148;
+  color: white;
+  padding: 33px;
+  margin-top: 44px;
+}
+
+.premiere-recomendation .premiere-header {
+  display: flex;
+  align-items: center;
+}
+
+.premiere-card-description {
+  margin-top: 20px;
+}
+
+.premiere-card-description h2,h3 {
+  font-weight: 250;
+}
+
+.footer {
+  background-color: #333338;
+  padding: 28px;
+  margin-top: 44px;
+}
+
+.footer img {
+  width: 18%;
+  margin-left: 43%;
+  
+}
+
+.footer .icon {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.icon i {
+  /* color: black; */
+  margin-inline: 22px;
+  font-size: 25px;
+  cursor: pointer;
+}
